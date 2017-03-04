@@ -1,0 +1,1 @@
+https://travis-ci.org/thuutin/ghost-android.svg?branch=master
