@@ -27,10 +27,6 @@ android:
 script:
   - ./gradlew build
 
-after_failure:
-  - cat app/build/outputs/lint-results-debug.html && cat app/build/outputs/lint-results-debug.xml
-
 notifications:
   slack:
     secure: CpBN7KoTbFeGPiPaO9LRKpJ+pGOnz521Xe6LCsmUgFHuzc6Ak2GeVHbYf7jNiFIiBacLVx+9y71sTqMGaw9KcqRj/R+Euf89g9uQw+e84h2C8Fk1MvAOa3PhwCO/WkoxNBDmR9OIGeHg9ov/ACnu9rNPqkvHWvqVALwmPLWLTneOfVj1WRqgTDUsd/tvxsum5przQSjmXFVvzedkFQdzWWtZu66sUw0yEvf9lj7A2dntTKYVzz7Gxcl/Kfe6zsVOBbNZGV25WVe1zPyKWgee5toM7C9aUoZson/1AQel4cmQV6PfaXRdyPzHiU9M/KwW0Huz7NAFs5967NaMms4uC4YzqZ34ZrUxVrgPvIhG/QSr44KHZJhDeaVxMiymFAjR5lArkYEPIgnOq93+v3D1nFak+weKOvaJ4OnkI5GmEDOnsISLhKC/HJmamn+ZnvJ22bJKCxNTFlNeq93sQGkPNT1SQUSqn9+ibqx0Q3xNCQ/WMQzxg3ZMPGDsdf/tCpxPUcViDXLy5NMEo/4wCa51Aj8pdQaZC32pjOVkcJnWR7mfZdnjWz4pmu7xB7tQDC66gQOTC9dFjoNDo86vUgphfHNERzQaNotTy4Bg+CnakBxLDe5YUzyhW329fujl0wHqvK8yxH+ctSkW8XB/CVr4ffpvkXSmwLWzg4M6Bo3JF4s=
-
